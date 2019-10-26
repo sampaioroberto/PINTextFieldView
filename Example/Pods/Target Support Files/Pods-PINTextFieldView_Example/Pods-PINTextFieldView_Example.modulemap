@@ -1,0 +1,6 @@
+framework module Pods_PINTextFieldView_Example {
+  umbrella header "Pods-PINTextFieldView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

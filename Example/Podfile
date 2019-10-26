@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'PINTextFieldView_Example' do
+  pod 'PINTextFieldView', :path => '../'
+end

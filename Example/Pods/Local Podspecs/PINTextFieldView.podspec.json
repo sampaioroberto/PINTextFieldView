@@ -1,0 +1,22 @@
+{
+  "name": "PINTextFieldView",
+  "version": "0.1.0",
+  "summary": "A short description of PINTextFieldView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/roberto.sampaio@concrete.com.br/PINTextFieldView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "roberto.sampaio@concrete.com.br": "roberto.sampaio@concrete.com.br"
+  },
+  "source": {
+    "git": "https://github.com/roberto.sampaio@concrete.com.br/PINTextFieldView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "PINTextFieldView/Classes/**/*"
+}
