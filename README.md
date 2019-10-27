@@ -2,11 +2,6 @@
 
 PINTextFieldView is a library used for accepting pincodes.
 
-[![CI Status](https://img.shields.io/travis/ssampaio.roberto@gmail.com/PINTextFieldView.svg?style=flat)](https://travis-ci.org/ssampaio.roberto@gmail.com/PINTextFieldView)
-[![Version](https://img.shields.io/cocoapods/v/PINTextFieldView.svg?style=flat)](https://cocoapods.org/pods/PINTextFieldView)
-[![License](https://img.shields.io/cocoapods/l/PINTextFieldView.svg?style=flat)](https://cocoapods.org/pods/PINTextFieldView)
-[![Platform](https://img.shields.io/cocoapods/p/PINTextFieldView.svg?style=flat)](https://cocoapods.org/pods/PINTextFieldView)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -58,14 +53,14 @@ func allPINCodes() -> [Int]
 
 In both functions, the values are the codes in the order it appears.
 
-## **NOTE:**: In PINTextFieldView the function becomeFirstResponder was overriden to call becomeFirstResponder to the first code text field.
+**NOTE:**: In PINTextFieldView the function becomeFirstResponder was overriden to call becomeFirstResponder to the first code text field.
 
 # Screenshots
 <img src="Screenshots/PINCodeViewExample.gif" width="400">
 
 ## Author
 
-ssampaio.roberto@gmail.com, ssampaio.roberto@gmail.com
+Roberto Sampaio, ssampaio.roberto@gmail.com
 
 ## License
 
