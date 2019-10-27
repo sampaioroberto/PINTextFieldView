@@ -7,39 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04605FCB8FF0472B07B6924A55A6EFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		0EBFBC2AD00F2E4236F2DF29E351126B /* Pods-PINTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 324B4EE49303D0364C8A351643E557BF /* Pods-PINTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		1539C4B73C028AA7264A98B849845258 /* PINTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FDE022BA301DEEDD5EBC958C8BCB07 /* PINTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		177EF5478FA9DE1BEF6CD3A85DF62758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		374FF2D2CF1ACC05ECD69238885E551A /* PINTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C212F92CED91FCB1673BBA76578BBA8D /* PINTextFieldView-dummy.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		77EA3DF504F5164131B8BA72F8CD779B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		AC4DB58C23652194005EA0F4 /* PINMasker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DB58923652194005EA0F4 /* PINMasker.swift */; };
-		AC4DB58D23652194005EA0F4 /* PINTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DB58A23652194005EA0F4 /* PINTextField.swift */; };
-		AC4DB58E23652194005EA0F4 /* PinTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DB58B23652194005EA0F4 /* PinTextFieldView.swift */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E3FBC562F727AE7038B5B7DAB22645F7 /* Pods-PINTextFieldView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B9348A6EF07C1C34D563FC49625333 /* Pods-PINTextFieldView_Tests-dummy.m */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8A07C70854C0CAB0EED16531702E5C5 /* Pods-PINTextFieldView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9403233399B85D39352DCEE3660980 /* Pods-PINTextFieldView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE24812C582163A5AD03BB0621945D2E /* Pods-PINTextFieldView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904AD0FD86A0CD58535C0896B4871A6E /* Pods-PINTextFieldView_Example-dummy.m */; };
+		0EBFBC2AD00F2E4236F2DF29E351126B /* Pods-PINTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B1FDFAA748C11304CC83A48D2340A9 /* Pods-PINTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2B65BF40CCCAC503D0FE9205CFCAB2 /* PINMasker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BBBB8CDDBDB2F748FBB470F6AEEDD /* PINMasker.swift */; };
+		39A5FD1FFC37FE774F713CC4B2344325 /* PINTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A24F3B541D27DE6B61CEE153B5791C00 /* PINTextFieldView-dummy.m */; };
+		77EA3DF504F5164131B8BA72F8CD779B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7BA4643638D48642E96E3D1AA0C972CD /* PINTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539F6B969BE9D2C4A545AD33F6B91B05 /* PINTextField.swift */; };
+		9007D700A71B459C73DB45784245500D /* PinTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462080F12DD72CFB6B0770B7620B9998 /* PinTextFieldView.swift */; };
+		C7BB65F91F1599321D84567A62A7A408 /* PINTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB48C0D1526F5951A6DBC485585E996A /* PINTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E056EBEA6A8050D36E5E0E063D5930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FE24812C582163A5AD03BB0621945D2E /* Pods-PINTextFieldView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 861909A2C87F9E78C5ED3469F99DF775 /* Pods-PINTextFieldView_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,86 +26,45 @@
 			remoteGlobalIDString = C197C29C971C29831C24264ECDC6FEE4;
 			remoteInfo = PINTextFieldView;
 		};
-		818682AFA0DCBE271A408505C58A9105 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		97C0738E616D510064E0060A63D7163E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBD35334796FDCD7C588E416143E44DC;
-			remoteInfo = "Pods-PINTextFieldView_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07C0352FE99A74E3B91B153D39875F62 /* Pods-PINTextFieldView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PINTextFieldView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		109FEF6E9C8972B3B4DC0E15E8C19261 /* Pods-PINTextFieldView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PINTextFieldView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		14A89F52B940AE02C0678E00CE5CB1E2 /* Pods-PINTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PINTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
-		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		1C622EB677D93C1A8683ADDE18F36335 /* Pods-PINTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PINTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2268D7EBAF89A4C2DAB2831FBAC10E04 /* PINTextFieldView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINTextFieldView.xcconfig; sourceTree = "<group>"; };
-		23370E29A8BADC10E241504D0E1BFB8A /* Pods-PINTextFieldView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PINTextFieldView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		324B4EE49303D0364C8A351643E557BF /* Pods-PINTextFieldView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PINTextFieldView_Example-umbrella.h"; sourceTree = "<group>"; };
-		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3E019144FE684C9FD59018C939107776 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		45DC68ED3739963E1AAE2888A4924026 /* Pods_PINTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PINTextFieldView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50CEC33D8F19F1AF46202CFE1F24370F /* Pods-PINTextFieldView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PINTextFieldView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		52A0234217D6FE9DC2EC46B30B297A8A /* Pods-PINTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PINTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE8B40BBBCAA11E3C6C3707FAFA1D3C /* PINTextFieldView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PINTextFieldView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		604ECDB1E419369B78AA9202AF19C623 /* PINTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PINTextFieldView.modulemap; sourceTree = "<group>"; };
-		60FDE022BA301DEEDD5EBC958C8BCB07 /* PINTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINTextFieldView-umbrella.h"; sourceTree = "<group>"; };
-		6EFE5F6B01A85D6E90F4938BED040B70 /* Pods-PINTextFieldView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PINTextFieldView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		70296A1295EAD468096A583A4ACB92A6 /* Pods-PINTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PINTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8121E2920E91591A8DA53CCB7ADDB3B5 /* Pods-PINTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PINTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		904AD0FD86A0CD58535C0896B4871A6E /* Pods-PINTextFieldView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PINTextFieldView_Example-dummy.m"; sourceTree = "<group>"; };
-		94455B61C24F7718A0CEFC51E02CE7E7 /* Pods-PINTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PINTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A504DD82D2AEB160A53BE8D6F0FD91BF /* Pods_PINTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PINTextFieldView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AC4DB58923652194005EA0F4 /* PINMasker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PINMasker.swift; path = PINTextFieldView/Classes/PINMasker.swift; sourceTree = "<group>"; };
-		AC4DB58A23652194005EA0F4 /* PINTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PINTextField.swift; path = PINTextFieldView/Classes/PINTextField.swift; sourceTree = "<group>"; };
-		AC4DB58B23652194005EA0F4 /* PinTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinTextFieldView.swift; path = PINTextFieldView/Classes/PinTextFieldView.swift; sourceTree = "<group>"; };
-		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		BA329ECDCF867B0041783B045A0FA7B0 /* Pods-PINTextFieldView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PINTextFieldView_Example-Info.plist"; sourceTree = "<group>"; };
-		BC7588CD4C9A38BB1E6B27B6B4672912 /* PINTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF9403233399B85D39352DCEE3660980 /* Pods-PINTextFieldView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PINTextFieldView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C212F92CED91FCB1673BBA76578BBA8D /* PINTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PINTextFieldView-dummy.m"; sourceTree = "<group>"; };
-		C6A1C06D4E970A11709563260B7B9161 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D407D7255225A849DC1FE941F6AAC1CF /* PINTextFieldView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PINTextFieldView-Info.plist"; sourceTree = "<group>"; };
-		D71A771AC8B54729156406A6796375C3 /* Pods-PINTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PINTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		ED8C6E37DCD3B440545C63EE45EE1422 /* Pods-PINTextFieldView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PINTextFieldView_Tests-Info.plist"; sourceTree = "<group>"; };
-		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F4B9348A6EF07C1C34D563FC49625333 /* Pods-PINTextFieldView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PINTextFieldView_Tests-dummy.m"; sourceTree = "<group>"; };
-		FBD7106606E40A5006EC665D94E871B6 /* PINTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINTextFieldView-prefix.pch"; sourceTree = "<group>"; };
+		1FE6D797C959D375FAD218F5768E745F /* Pods-PINTextFieldView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PINTextFieldView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		25484083BC8099B1E58E02878380B85A /* Pods-PINTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PINTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		367BBBB8CDDBDB2F748FBB470F6AEEDD /* PINMasker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PINMasker.swift; path = PINTextFieldView/Classes/PINMasker.swift; sourceTree = "<group>"; };
+		45C5475DE9279F4F8B8D404388A8E63D /* PINTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PINTextFieldView.modulemap; sourceTree = "<group>"; };
+		45DC68ED3739963E1AAE2888A4924026 /* Pods_PINTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PINTextFieldView_Example.framework; path = "Pods-PINTextFieldView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462080F12DD72CFB6B0770B7620B9998 /* PinTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinTextFieldView.swift; path = PINTextFieldView/Classes/PinTextFieldView.swift; sourceTree = "<group>"; };
+		4B4E3751DAF964F4E08786E0B9E3A2B5 /* Pods-PINTextFieldView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PINTextFieldView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		539F6B969BE9D2C4A545AD33F6B91B05 /* PINTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PINTextField.swift; path = PINTextFieldView/Classes/PINTextField.swift; sourceTree = "<group>"; };
+		57B1FDFAA748C11304CC83A48D2340A9 /* Pods-PINTextFieldView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PINTextFieldView_Example-umbrella.h"; sourceTree = "<group>"; };
+		5D9A1B754341423D8A1C021C9980E226 /* PINTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINTextFieldView-prefix.pch"; sourceTree = "<group>"; };
+		805DF794D085DC02471B89722E901AA3 /* Pods-PINTextFieldView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PINTextFieldView_Example-Info.plist"; sourceTree = "<group>"; };
+		861909A2C87F9E78C5ED3469F99DF775 /* Pods-PINTextFieldView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PINTextFieldView_Example-dummy.m"; sourceTree = "<group>"; };
+		8E74B229B71ACE2A8CC9533E9D89891B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24F3B541D27DE6B61CEE153B5791C00 /* PINTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PINTextFieldView-dummy.m"; sourceTree = "<group>"; };
+		ABBF961ED84F360587C151C9AC24F3F8 /* Pods-PINTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PINTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
+		BC7588CD4C9A38BB1E6B27B6B4672912 /* PINTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PINTextFieldView.framework; path = PINTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17D205EC4B72D7D86E7F43CA202A9FB /* Pods-PINTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PINTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB48C0D1526F5951A6DBC485585E996A /* PINTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINTextFieldView-umbrella.h"; sourceTree = "<group>"; };
+		DC03B3B8BA6ABB33023A1AE942111C91 /* PINTextFieldView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINTextFieldView.xcconfig; sourceTree = "<group>"; };
+		ED4860BE41C1F2182EA26D48B766462D /* Pods-PINTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PINTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F1050B7A89C4BAD8434EEEA05328989C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FF2F5AF1826D806612338236B85677AC /* PINTextFieldView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PINTextFieldView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFD8212F03D01FAEF9F341BC5C155C4C /* PINTextFieldView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PINTextFieldView-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		30A767CD631A67E6FF68D3CE709FE872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E056EBEA6A8050D36E5E0E063D5930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E8EA3FC90FA0D0731163DEF4DB2418C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,250 +73,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B00B374A4F98678B74B4866BA50DE689 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04605FCB8FF0472B07B6924A55A6EFC8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2550952D0B4469954398D71DCBD4CDE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				177EF5478FA9DE1BEF6CD3A85DF62758 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
-				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
-				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
-				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D1CE6EAAF04D06C92DA6406EA0848C0 /* Pods-PINTextFieldView_Example */ = {
+		150894104DEBBEBBD4E5A804B807536B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14A89F52B940AE02C0678E00CE5CB1E2 /* Pods-PINTextFieldView_Example.modulemap */,
-				07C0352FE99A74E3B91B153D39875F62 /* Pods-PINTextFieldView_Example-acknowledgements.markdown */,
-				8121E2920E91591A8DA53CCB7ADDB3B5 /* Pods-PINTextFieldView_Example-acknowledgements.plist */,
-				904AD0FD86A0CD58535C0896B4871A6E /* Pods-PINTextFieldView_Example-dummy.m */,
-				50CEC33D8F19F1AF46202CFE1F24370F /* Pods-PINTextFieldView_Example-frameworks.sh */,
-				BA329ECDCF867B0041783B045A0FA7B0 /* Pods-PINTextFieldView_Example-Info.plist */,
-				324B4EE49303D0364C8A351643E557BF /* Pods-PINTextFieldView_Example-umbrella.h */,
-				1C622EB677D93C1A8683ADDE18F36335 /* Pods-PINTextFieldView_Example.debug.xcconfig */,
-				94455B61C24F7718A0CEFC51E02CE7E7 /* Pods-PINTextFieldView_Example.release.xcconfig */,
+				BC7588CD4C9A38BB1E6B27B6B4672912 /* PINTextFieldView.framework */,
+				45DC68ED3739963E1AAE2888A4924026 /* Pods_PINTextFieldView_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3486CE104E821304220E4576651F1CB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE0BDE38E7BCAF617E3E017EF33306 /* PINTextFieldView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3978B6B38526D0AACE95D79535280087 /* Pods-PINTextFieldView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ABBF961ED84F360587C151C9AC24F3F8 /* Pods-PINTextFieldView_Example.modulemap */,
+				4B4E3751DAF964F4E08786E0B9E3A2B5 /* Pods-PINTextFieldView_Example-acknowledgements.markdown */,
+				D17D205EC4B72D7D86E7F43CA202A9FB /* Pods-PINTextFieldView_Example-acknowledgements.plist */,
+				861909A2C87F9E78C5ED3469F99DF775 /* Pods-PINTextFieldView_Example-dummy.m */,
+				1FE6D797C959D375FAD218F5768E745F /* Pods-PINTextFieldView_Example-frameworks.sh */,
+				805DF794D085DC02471B89722E901AA3 /* Pods-PINTextFieldView_Example-Info.plist */,
+				57B1FDFAA748C11304CC83A48D2340A9 /* Pods-PINTextFieldView_Example-umbrella.h */,
+				ED4860BE41C1F2182EA26D48B766462D /* Pods-PINTextFieldView_Example.debug.xcconfig */,
+				25484083BC8099B1E58E02878380B85A /* Pods-PINTextFieldView_Example.release.xcconfig */,
 			);
 			name = "Pods-PINTextFieldView_Example";
 			path = "Target Support Files/Pods-PINTextFieldView_Example";
 			sourceTree = "<group>";
 		};
-		24A8DBD2B7F68451B1D21D75DCC3E40E /* Targets Support Files */ = {
+		4A5E59425B7A4901C75B99DE94D5826B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0D1CE6EAAF04D06C92DA6406EA0848C0 /* Pods-PINTextFieldView_Example */,
-				97068759184B7A269975D8B8C78B7A48 /* Pods-PINTextFieldView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		36E68E8201F329BD2B26D2F8AFF6FD13 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3E019144FE684C9FD59018C939107776 /* LICENSE */,
-				AC4DB58923652194005EA0F4 /* PINMasker.swift */,
-				AC4DB58A23652194005EA0F4 /* PINTextField.swift */,
-				AC4DB58B23652194005EA0F4 /* PinTextFieldView.swift */,
-				5DE8B40BBBCAA11E3C6C3707FAFA1D3C /* PINTextFieldView.podspec */,
-				C6A1C06D4E970A11709563260B7B9161 /* README.md */,
+				F1050B7A89C4BAD8434EEEA05328989C /* LICENSE */,
+				FF2F5AF1826D806612338236B85677AC /* PINTextFieldView.podspec */,
+				8E74B229B71ACE2A8CC9533E9D89891B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+		7C9B7D167D95078FF9E8B4AE88865FB2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
-				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
-				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
-				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
-				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
-				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
+				45C5475DE9279F4F8B8D404388A8E63D /* PINTextFieldView.modulemap */,
+				DC03B3B8BA6ABB33023A1AE942111C91 /* PINTextFieldView.xcconfig */,
+				A24F3B541D27DE6B61CEE153B5791C00 /* PINTextFieldView-dummy.m */,
+				FFD8212F03D01FAEF9F341BC5C155C4C /* PINTextFieldView-Info.plist */,
+				5D9A1B754341423D8A1C021C9980E226 /* PINTextFieldView-prefix.pch */,
+				DB48C0D1526F5951A6DBC485585E996A /* PINTextFieldView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = "Example/Pods/Target Support Files/PINTextFieldView";
 			sourceTree = "<group>";
 		};
-		4D43F0C759776DF36AD61D14FB6485F7 /* PINTextFieldView */ = {
+		92AC0EFB41C0D4375B531B28EE424DB7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				36E68E8201F329BD2B26D2F8AFF6FD13 /* Pod */,
-				DD748AB50048358693C4BBFAA29D9297 /* Support Files */,
+				3978B6B38526D0AACE95D79535280087 /* Pods-PINTextFieldView_Example */,
 			);
-			name = PINTextFieldView;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
-				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
-				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		97068759184B7A269975D8B8C78B7A48 /* Pods-PINTextFieldView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				70296A1295EAD468096A583A4ACB92A6 /* Pods-PINTextFieldView_Tests.modulemap */,
-				23370E29A8BADC10E241504D0E1BFB8A /* Pods-PINTextFieldView_Tests-acknowledgements.markdown */,
-				6EFE5F6B01A85D6E90F4938BED040B70 /* Pods-PINTextFieldView_Tests-acknowledgements.plist */,
-				F4B9348A6EF07C1C34D563FC49625333 /* Pods-PINTextFieldView_Tests-dummy.m */,
-				109FEF6E9C8972B3B4DC0E15E8C19261 /* Pods-PINTextFieldView_Tests-frameworks.sh */,
-				ED8C6E37DCD3B440545C63EE45EE1422 /* Pods-PINTextFieldView_Tests-Info.plist */,
-				BF9403233399B85D39352DCEE3660980 /* Pods-PINTextFieldView_Tests-umbrella.h */,
-				D71A771AC8B54729156406A6796375C3 /* Pods-PINTextFieldView_Tests.debug.xcconfig */,
-				52A0234217D6FE9DC2EC46B30B297A8A /* Pods-PINTextFieldView_Tests.release.xcconfig */,
-			);
-			name = "Pods-PINTextFieldView_Tests";
-			path = "Target Support Files/Pods-PINTextFieldView_Tests";
-			sourceTree = "<group>";
-		};
-		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
-				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
-				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
-				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
-				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
-				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
-				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
-				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
-				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
-				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
-				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
-				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
-				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
-				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		A71661FCD39E399A445B573250B1459A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				BC7588CD4C9A38BB1E6B27B6B4672912 /* PINTextFieldView.framework */,
-				45DC68ED3739963E1AAE2888A4924026 /* Pods_PINTextFieldView_Example.framework */,
-				A504DD82D2AEB160A53BE8D6F0FD91BF /* Pods_PINTextFieldView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FECC36F9542C703BDE05920F037F0F17 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				A71661FCD39E399A445B573250B1459A /* Products */,
-				24A8DBD2B7F68451B1D21D75DCC3E40E /* Targets Support Files */,
+				3486CE104E821304220E4576651F1CB4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				150894104DEBBEBBD4E5A804B807536B /* Products */,
+				92AC0EFB41C0D4375B531B28EE424DB7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DD748AB50048358693C4BBFAA29D9297 /* Support Files */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				604ECDB1E419369B78AA9202AF19C623 /* PINTextFieldView.modulemap */,
-				2268D7EBAF89A4C2DAB2831FBAC10E04 /* PINTextFieldView.xcconfig */,
-				C212F92CED91FCB1673BBA76578BBA8D /* PINTextFieldView-dummy.m */,
-				D407D7255225A849DC1FE941F6AAC1CF /* PINTextFieldView-Info.plist */,
-				FBD7106606E40A5006EC665D94E871B6 /* PINTextFieldView-prefix.pch */,
-				60FDE022BA301DEEDD5EBC958C8BCB07 /* PINTextFieldView-umbrella.h */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PINTextFieldView";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		FFCE0BDE38E7BCAF617E3E017EF33306 /* PINTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+				367BBBB8CDDBDB2F748FBB470F6AEEDD /* PINMasker.swift */,
+				539F6B969BE9D2C4A545AD33F6B91B05 /* PINTextField.swift */,
+				462080F12DD72CFB6B0770B7620B9998 /* PinTextFieldView.swift */,
+				4A5E59425B7A4901C75B99DE94D5826B /* Pod */,
+				7C9B7D167D95078FF9E8B4AE88865FB2 /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FECC36F9542C703BDE05920F037F0F17 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4D43F0C759776DF36AD61D14FB6485F7 /* PINTextFieldView */,
-			);
-			name = "Development Pods";
+			name = PINTextFieldView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+		1D703B34DD6B0B85F8C8FC806E5F3787 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6238942947F524E1256AB398F11FD164 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8A07C70854C0CAB0EED16531702E5C5 /* Pods-PINTextFieldView_Tests-umbrella.h in Headers */,
+				C7BB65F91F1599321D84567A62A7A408 /* PINTextFieldView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,63 +201,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD23BF7360A96DD8D762967673EC9607 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1539C4B73C028AA7264A98B849845258 /* PINTextFieldView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8384BB24DD6A502079C1E54D55E99F61 /* Pods-PINTextFieldView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 763ABD303FD2B73288A70776DEDD4E2B /* Build configuration list for PBXNativeTarget "Pods-PINTextFieldView_Tests" */;
-			buildPhases = (
-				6238942947F524E1256AB398F11FD164 /* Headers */,
-				E05139EA8F3EA6D4E1C9C2A15EAF1F36 /* Sources */,
-				B00B374A4F98678B74B4866BA50DE689 /* Frameworks */,
-				A7C7DEF40AE6C4D2CC71C1076AD5705E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDD93CE5739E1E599F7F9196B7C5D3A2 /* PBXTargetDependency */,
-				41D7E24B372E6249ADBC6AEE407CD418 /* PBXTargetDependency */,
-			);
-			name = "Pods-PINTextFieldView_Tests";
-			productName = "Pods-PINTextFieldView_Tests";
-			productReference = A504DD82D2AEB160A53BE8D6F0FD91BF /* Pods_PINTextFieldView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		C197C29C971C29831C24264ECDC6FEE4 /* PINTextFieldView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51BBA02C22D7F430175D7E40FC276071 /* Build configuration list for PBXNativeTarget "PINTextFieldView" */;
+			buildConfigurationList = B424DEEC89E934787532F12488078FE4 /* Build configuration list for PBXNativeTarget "PINTextFieldView" */;
 			buildPhases = (
-				CD23BF7360A96DD8D762967673EC9607 /* Headers */,
-				14A4B23431202EB24661282C8FD44712 /* Sources */,
-				E2550952D0B4469954398D71DCBD4CDE /* Frameworks */,
-				944827BB8DEE61E19219EB1CE33F0C80 /* Resources */,
+				1D703B34DD6B0B85F8C8FC806E5F3787 /* Headers */,
+				A89864CE7A96C3196C0EEF9BA08B400C /* Sources */,
+				30A767CD631A67E6FF68D3CE709FE872 /* Frameworks */,
+				1A387E9F6B983F5E67B5EC01BBA21BC0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -487,11 +249,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					C197C29C971C29831C24264ECDC6FEE4 = {
-						LastSwiftMigration = 1110;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -501,20 +258,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A71661FCD39E399A445B573250B1459A /* Products */;
+			productRefGroup = 150894104DEBBEBBD4E5A804B807536B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				C197C29C971C29831C24264ECDC6FEE4 /* PINTextFieldView */,
 				FBD35334796FDCD7C588E416143E44DC /* Pods-PINTextFieldView_Example */,
-				8384BB24DD6A502079C1E54D55E99F61 /* Pods-PINTextFieldView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		1A387E9F6B983F5E67B5EC01BBA21BC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -528,31 +283,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		944827BB8DEE61E19219EB1CE33F0C80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7C7DEF40AE6C4D2CC71C1076AD5705E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14A4B23431202EB24661282C8FD44712 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				374FF2D2CF1ACC05ECD69238885E551A /* PINTextFieldView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6B88C5B905DA3CAFA9EFDA8106EFE8C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,30 +294,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+		A89864CE7A96C3196C0EEF9BA08B400C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				AC4DB58E23652194005EA0F4 /* PinTextFieldView.swift in Sources */,
-				AC4DB58C23652194005EA0F4 /* PINMasker.swift in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				AC4DB58D23652194005EA0F4 /* PINTextField.swift in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E05139EA8F3EA6D4E1C9C2A15EAF1F36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3FBC562F727AE7038B5B7DAB22645F7 /* Pods-PINTextFieldView_Tests-dummy.m in Sources */,
+				1F2B65BF40CCCAC503D0FE9205CFCAB2 /* PINMasker.swift in Sources */,
+				7BA4643638D48642E96E3D1AA0C972CD /* PINTextField.swift in Sources */,
+				39A5FD1FFC37FE774F713CC4B2344325 /* PINTextFieldView-dummy.m in Sources */,
+				9007D700A71B459C73DB45784245500D /* PinTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,57 +314,12 @@
 			target = C197C29C971C29831C24264ECDC6FEE4 /* PINTextFieldView */;
 			targetProxy = 55BBEF04A132C00B25C68E1EA0112837 /* PBXContainerItemProxy */;
 		};
-		41D7E24B372E6249ADBC6AEE407CD418 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PINTextFieldView_Example";
-			target = FBD35334796FDCD7C588E416143E44DC /* Pods-PINTextFieldView_Example */;
-			targetProxy = 97C0738E616D510064E0060A63D7163E /* PBXContainerItemProxy */;
-		};
-		DDD93CE5739E1E599F7F9196B7C5D3A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 818682AFA0DCBE271A408505C58A9105 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		058D414B812C20AAB77898D22A044B9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2268D7EBAF89A4C2DAB2831FBAC10E04 /* PINTextFieldView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PINTextFieldView/PINTextFieldView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView.modulemap";
-				PRODUCT_MODULE_NAME = PINTextFieldView;
-				PRODUCT_NAME = PINTextFieldView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		15A00C362BC3320D40E0B48384E66727 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94455B61C24F7718A0CEFC51E02CE7E7 /* Pods-PINTextFieldView_Example.release.xcconfig */;
+			baseConfigurationReference = 25484083BC8099B1E58E02878380B85A /* Pods-PINTextFieldView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -678,104 +350,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		2402A4BD1EECEA6FFAF576F7EB575D62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D71A771AC8B54729156406A6796375C3 /* Pods-PINTextFieldView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PINTextFieldView_Tests/Pods-PINTextFieldView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PINTextFieldView_Tests/Pods-PINTextFieldView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		91173C27E31FF7A1D06A168E86FEE75E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2268D7EBAF89A4C2DAB2831FBAC10E04 /* PINTextFieldView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PINTextFieldView/PINTextFieldView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView.modulemap";
-				PRODUCT_MODULE_NAME = PINTextFieldView;
-				PRODUCT_NAME = PINTextFieldView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -830,43 +404,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B7AF81B35CA1AE10117BE40D13CBAEC5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52A0234217D6FE9DC2EC46B30B297A8A /* Pods-PINTextFieldView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PINTextFieldView_Tests/Pods-PINTextFieldView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PINTextFieldView_Tests/Pods-PINTextFieldView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -934,9 +475,40 @@
 			};
 			name = Debug;
 		};
+		C49CF44966DEEE2F1281616DDD939DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03B3B8BA6ABB33023A1AE942111C91 /* PINTextFieldView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PINTextFieldView/PINTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = PINTextFieldView;
+				PRODUCT_NAME = PINTextFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DD274DD2F01041AED51943690B7B6CF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C622EB677D93C1A8683ADDE18F36335 /* Pods-PINTextFieldView_Example.debug.xcconfig */;
+			baseConfigurationReference = ED4860BE41C1F2182EA26D48B766462D /* Pods-PINTextFieldView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -967,9 +539,9 @@
 			};
 			name = Debug;
 		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+		EF44C09997A925FD26D913FAEFC5FBE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = DC03B3B8BA6ABB33023A1AE942111C91 /* PINTextFieldView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -980,23 +552,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PINTextFieldView/PINTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MODULEMAP_FILE = "Target Support Files/PINTextFieldView/PINTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = PINTextFieldView;
+				PRODUCT_NAME = PINTextFieldView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1010,29 +583,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51BBA02C22D7F430175D7E40FC276071 /* Build configuration list for PBXNativeTarget "PINTextFieldView" */ = {
+		B424DEEC89E934787532F12488078FE4 /* Build configuration list for PBXNativeTarget "PINTextFieldView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91173C27E31FF7A1D06A168E86FEE75E /* Debug */,
-				058D414B812C20AAB77898D22A044B9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		763ABD303FD2B73288A70776DEDD4E2B /* Build configuration list for PBXNativeTarget "Pods-PINTextFieldView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2402A4BD1EECEA6FFAF576F7EB575D62 /* Debug */,
-				B7AF81B35CA1AE10117BE40D13CBAEC5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
+				C49CF44966DEEE2F1281616DDD939DF3 /* Debug */,
+				EF44C09997A925FD26D913FAEFC5FBE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

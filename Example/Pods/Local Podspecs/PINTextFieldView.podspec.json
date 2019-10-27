@@ -1,18 +1,18 @@
 {
   "name": "PINTextFieldView",
   "version": "0.1.0",
-  "summary": "A short description of PINTextFieldView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/roberto.sampaio@concrete.com.br/PINTextFieldView",
+  "summary": "Its a insert pincode View.",
+  "description": "PINTextFieldView is a library used for accepting pincodes.",
+  "homepage": "https://github.com/sampaioroberto/PINTextFieldView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "roberto.sampaio@concrete.com.br": "roberto.sampaio@concrete.com.br"
+    "Roberto Sampaio": "ssampaio.roberto@gmail.com"
   },
   "source": {
-    "git": "https://github.com/roberto.sampaio@concrete.com.br/PINTextFieldView.git",
+    "git": "https://github.com/sampaioroberto/PINTextFieldView.git",
     "tag": "0.1.0"
   },
   "platforms": {
