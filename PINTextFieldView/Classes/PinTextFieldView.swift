@@ -31,24 +31,25 @@ open class PinTextFieldView: UIView {
 
   open weak var delegate: PINTextFieldViewProtocol?
 
-  //The height of each of the PINs
+  //The width of each one of the PINs
   open var widthPIN: CGFloat = 56.0
 
-  //The height of each of the PINs
+  //The height of each one of the PINs
   open var heightPIN: CGFloat = 64.0
 
-  //The corner radius of each of the PINs
+  //The spacement between each one of the PINs
   open var spacement: CGFloat = 16.0
 
+  //The font of each one of the PINs
   open var font: UIFont = UIFont.systemFont(ofSize: 40)
 
-  //The corner radius of each of the PINs
+  //The corner radius of each one of the PINs
   open var cornerRadiusPIN: CGFloat = 24.0
 
-  //The border width of each of  the PINs
+  //The border width of each one of the PINs
   open var borderWidthPIN: CGFloat = 2.0
 
-  //The border color of the PINs
+  //The border color of each one of the PINs
   open var borderColorPIN: UIColor = UIColor.white
 
   //The background color of a PIN when it's empty and not selected
