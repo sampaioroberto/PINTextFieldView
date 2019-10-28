@@ -74,7 +74,7 @@ open class PinTextFieldView: UIView {
     return textFields.first?.becomeFirstResponder() ?? false
   }
 
-  public func allPINCodes() -> [Int] {
+  public func allPINCodes() -> [Int]? {
     return allValues()
   }
 }
@@ -114,8 +114,9 @@ private extension PinTextFieldView {
     let currentIndex = index+1
 
     if (currentIndex == textFields.count) && areAllFieldsFilled() {
+      guard let allValues = allValues() else { return }
       sender.resignFirstResponder()
-      delegate?.didFinish(values: allValues())
+      delegate?.didFinish(values: allValues)
     }
 
     if currentIndex < textFields.count {
@@ -124,11 +125,13 @@ private extension PinTextFieldView {
     }
   }
 
-  func allValues() -> [Int] {
-    return textFields.map { textField -> Int in
-      guard let text = textField.text, let value = Int(text) else { return 0 }
-      return value
+  func allValues() -> [Int]? {
+    var values = [Int]()
+    for textField in textFields {
+      guard let text = textField.text, let value = Int(text) else { return nil }
+      values.append(value)
     }
+    return values
   }
 
   @objc func didEditingBegin(sender: UITextField) {

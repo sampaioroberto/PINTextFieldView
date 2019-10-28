@@ -48,8 +48,10 @@ func didFinish(values: [Int])
 Moreover, It is possible to get all codes any time. The function for that is:
 
 ```swift
-func allPINCodes() -> [Int]
+func allPINCodes() -> [Int]?
 ```
+
+If it is nil, it's because not all codes were typed yet.
 
 In both functions, the values are the codes in the order it appears.
 
