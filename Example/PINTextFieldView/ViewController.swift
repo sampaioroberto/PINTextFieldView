@@ -6,7 +6,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupPINView()
-    view.backgroundColor = .blue
+    view.backgroundColor = .black
   }
 
   override func viewDidAppear(_ animated: Bool) {

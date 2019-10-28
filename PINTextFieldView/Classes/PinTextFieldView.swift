@@ -53,16 +53,16 @@ open class PinTextFieldView: UIView {
   open var borderColorPIN: UIColor = UIColor.white
 
   //The background color of a PIN when it's empty and not selected
-  open var backgroundColorEmptyPIN: UIColor = UIColor.blue
+  open var backgroundColorEmptyPIN: UIColor = UIColor.black
 
   //The background color of a PIN when it's filled and not selected
-  open var backgroundColorFilledPIN: UIColor = UIColor.orange
+  open var backgroundColorFilledPIN: UIColor = UIColor.gray
 
   //The background color of a PIN when it's selected
   open var backgroundColorSelectedPIN: UIColor = UIColor.white
 
   //The text color of the text of a PIN when it's selected
-  open var textColorSelectedPIN: UIColor = UIColor.blue
+  open var textColorSelectedPIN: UIColor = UIColor.black
 
   //The text color of the text of a PIN when it's unselected
   var textColorUnselectedPIN: UIColor = UIColor.white

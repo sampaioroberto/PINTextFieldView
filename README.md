@@ -56,7 +56,7 @@ In both functions, the values are the codes in the order it appears.
 **NOTE:**: In PINTextFieldView the function becomeFirstResponder was overriden to call becomeFirstResponder to the first code text field.
 
 # Screenshots
-<img src="Screenshots/PINCodeViewExample.gif" width="400">
+<img src="Screenshots/PINCodeViewExampleBlackScreen.gif" width="400">
 
 ## Author
 
