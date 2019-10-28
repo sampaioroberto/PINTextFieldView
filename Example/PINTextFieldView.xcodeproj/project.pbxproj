@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30567ABAD47F79CA8F3CF193 /* Pods_PINTextFieldView_Example_PINTextFieldView_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C649EAB47A42D0BFAE904A /* Pods_PINTextFieldView_Example_PINTextFieldView_ExampleTests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		7FE24A98BB8EF99E03043C92 /* Pods_PINTextFieldView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B20DFF1EE2ADCF49D19EDA /* Pods_PINTextFieldView_Example.framework */; };
+		AC32677E236685660039105C /* PINMaskerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32677D236685660039105C /* PINMaskerSpec.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC326777236684550039105C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = PINTextFieldView_Example;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F646707FD09BB6E034F1740 /* PINTextFieldView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PINTextFieldView.podspec; path = ../PINTextFieldView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -27,7 +39,14 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76C649EAB47A42D0BFAE904A /* Pods_PINTextFieldView_Example_PINTextFieldView_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PINTextFieldView_Example_PINTextFieldView_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED42D21A91DE70BC140F1C9 /* Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC326772236684550039105C /* PINTextFieldView_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINTextFieldView_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC326776236684550039105C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC32677C236685650039105C /* PINTextFieldView_ExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTextFieldView_ExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC32677D236685660039105C /* PINMaskerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINMaskerSpec.swift; sourceTree = "<group>"; };
 		CEEF47BFEFFA8A9F2B4A7A96 /* Pods-PINTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINTextFieldView_Example.release.xcconfig"; path = "Target Support Files/Pods-PINTextFieldView_Example/Pods-PINTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D956399A931BF9E615A2EDE7 /* Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B20DFF1EE2ADCF49D19EDA /* Pods_PINTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PINTextFieldView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -40,6 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC32676F236684550039105C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30567ABAD47F79CA8F3CF193 /* Pods_PINTextFieldView_Example_PINTextFieldView_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +75,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for PINTextFieldView */,
+				AC326773236684550039105C /* PINTextFieldView_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D9837A4272658C50EDD3DC3A /* Pods */,
 				AEEE9B9DEB2A81927A70B319 /* Frameworks */,
@@ -58,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* PINTextFieldView_Example.app */,
+				AC326772236684550039105C /* PINTextFieldView_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +123,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		AC326773236684550039105C /* PINTextFieldView_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC326776236684550039105C /* Info.plist */,
+				AC32677D236685660039105C /* PINMaskerSpec.swift */,
+				AC32677C236685650039105C /* PINTextFieldView_ExampleTests-Bridging-Header.h */,
+			);
+			path = PINTextFieldView_ExampleTests;
+			sourceTree = "<group>";
+		};
 		AEEE9B9DEB2A81927A70B319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F0B20DFF1EE2ADCF49D19EDA /* Pods_PINTextFieldView_Example.framework */,
+				76C649EAB47A42D0BFAE904A /* Pods_PINTextFieldView_Example_PINTextFieldView_ExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +147,8 @@
 			children = (
 				23BFDE1F0DA45E36069F48D6 /* Pods-PINTextFieldView_Example.debug.xcconfig */,
 				CEEF47BFEFFA8A9F2B4A7A96 /* Pods-PINTextFieldView_Example.release.xcconfig */,
+				D956399A931BF9E615A2EDE7 /* Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.debug.xcconfig */,
+				9ED42D21A91DE70BC140F1C9 /* Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -133,19 +175,45 @@
 			productReference = 607FACD01AFB9204008FA782 /* PINTextFieldView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AC326771236684550039105C /* PINTextFieldView_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC32677B236684550039105C /* Build configuration list for PBXNativeTarget "PINTextFieldView_ExampleTests" */;
+			buildPhases = (
+				3DEC453A8349B299538EDC7E /* [CP] Check Pods Manifest.lock */,
+				AC32676E236684550039105C /* Sources */,
+				AC32676F236684550039105C /* Frameworks */,
+				AC326770236684550039105C /* Resources */,
+				3671A1C2AE75F868122DA859 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC326778236684550039105C /* PBXTargetDependency */,
+			);
+			name = PINTextFieldView_ExampleTests;
+			productName = PINTextFieldView_ExampleTests;
+			productReference = AC326772236684550039105C /* PINTextFieldView_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+					};
+					AC326771236684550039105C = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -163,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* PINTextFieldView_Example */,
+				AC326771236684550039105C /* PINTextFieldView_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -175,6 +244,13 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC326770236684550039105C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +273,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PINTextFieldView_Example/Pods-PINTextFieldView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3671A1C2AE75F868122DA859 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINTextFieldView/PINTextFieldView.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINTextFieldView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DEC453A8349B299538EDC7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CFFF4DCF318AC9C2CE7A7137 /* [CP] Check Pods Manifest.lock */ = {
@@ -233,7 +353,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC32676E236684550039105C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC32677E236685660039105C /* PINMaskerSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC326778236684550039105C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* PINTextFieldView_Example */;
+			targetProxy = AC326777236684550039105C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -392,6 +528,64 @@
 			};
 			name = Release;
 		};
+		AC326779236684550039105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D956399A931BF9E615A2EDE7 /* Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PINTextFieldView_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.robertosampaio.PINTextFieldView-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "PINTextFieldView_ExampleTests/PINTextFieldView_ExampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PINTextFieldView_Example.app/PINTextFieldView_Example";
+			};
+			name = Debug;
+		};
+		AC32677A236684550039105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED42D21A91DE70BC140F1C9 /* Pods-PINTextFieldView_Example-PINTextFieldView_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PINTextFieldView_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.robertosampaio.PINTextFieldView-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PINTextFieldView_ExampleTests/PINTextFieldView_ExampleTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PINTextFieldView_Example.app/PINTextFieldView_Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +603,15 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC32677B236684550039105C /* Build configuration list for PBXNativeTarget "PINTextFieldView_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC326779236684550039105C /* Debug */,
+				AC32677A236684550039105C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

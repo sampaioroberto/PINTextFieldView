@@ -40,7 +40,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -50,6 +52,15 @@
             ReferencedContainer = "container:PINTextFieldView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C197C29C971C29831C24264ECDC6FEE4"
+            BuildableName = "PINTextFieldView.framework"
+            BlueprintName = "PINTextFieldView"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -58,6 +69,16 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "PINTextFieldView_Tests.xctest"
                BlueprintName = "PINTextFieldView_Tests"
+               ReferencedContainer = "container:PINTextFieldView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC326771236684550039105C"
+               BuildableName = "PINTextFieldView_ExampleTests.xctest"
+               BlueprintName = "PINTextFieldView_ExampleTests"
                ReferencedContainer = "container:PINTextFieldView.xcodeproj">
             </BuildableReference>
          </TestableReference>

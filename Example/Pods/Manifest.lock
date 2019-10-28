@@ -1,16 +1,27 @@
 PODS:
+  - Nimble (8.0.4)
   - PINTextFieldView (0.1.0)
+  - Quick (2.2.0)
 
 DEPENDENCIES:
+  - Nimble
   - PINTextFieldView (from `../`)
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   PINTextFieldView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PINTextFieldView: f7e068d9babdc905de90efaf0698d48d78f7c155
+  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
+  PINTextFieldView: 1d5409b4b39208ec4b8f01e8c3d0304ad328fd17
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
 
-PODFILE CHECKSUM: c5f01c4bc9e10bc4e2f6c2e0f0a670a714819918
+PODFILE CHECKSUM: c1eff1cd0059b487bb2b02408a643affa7be9708
 
 COCOAPODS: 1.8.4
